@@ -16,7 +16,7 @@ function mincost(arr)
 		let cost  = first + second;
 		totalCost += cost ;
 
-		min_heap.pust(cost);
+		min_heap.push(cost);
 		min_heap.sort((a,b) => a-b );
 	}
 	return totalCost;
